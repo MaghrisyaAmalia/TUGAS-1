@@ -62,46 +62,6 @@
             android:layout_below="@+id/textViewNL" />
 
         <TextView
-            android:id="@+id/textViewNP"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/editTextNL"
-            android:text="NAMA PANGGILAN"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
-
-        <EditText
-            android:id="@+id/editTextNP"
-            android:layout_width="254dp"
-            android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/editTextNL"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignRight="@+id/editTextNL"
-            android:layout_below="@+id/textViewNP" />
-
-        <TextView
-            android:id="@+id/textViewA"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/editTextNP"
-            android:text="ALAMAT"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
-
-        <EditText
-            android:id="@+id/editTextA"
-            android:layout_width="254dp"
-            android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/editTextNP"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignRight="@+id/editTextNP"
-            android:layout_below="@+id/textViewA" />
-
-        <TextView
             android:id="@+id/textViewJK"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -194,20 +154,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hasil NL"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
-
-        <TextView
-            android:id="@+id/hasilNP"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hasil NP"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
-
-        <TextView
-            android:id="@+id/hasilA"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hasil A"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <TextView
