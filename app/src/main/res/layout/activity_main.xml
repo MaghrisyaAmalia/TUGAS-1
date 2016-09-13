@@ -112,6 +112,7 @@
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <RadioGroup
+            android:id="@+id/JK"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
