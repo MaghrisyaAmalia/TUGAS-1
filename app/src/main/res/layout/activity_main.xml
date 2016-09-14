@@ -139,8 +139,10 @@
 
         <Spinner
             android:id="@+id/spinnerJP"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/android_layout_arrays"
+            android:padding="5dp" />
 
         <Button
             android:id="@+id/buttonOK"
