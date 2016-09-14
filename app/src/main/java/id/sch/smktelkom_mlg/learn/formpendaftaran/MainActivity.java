@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
     private void doProcess() {
         if (isValid()) {
             String nama = etNL.getText().toString();
-            HasilNL.setText("Nama : " + nama);
+            HasilNL.setText("Nama :\n" + nama);
         }
     }
 
@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
         if (Jumhasil == null) {
             HasilJK.setText("Belum memilih Jenis Kelamin");
         } else {
-            HasilJK.setText("Jenis Kelamin : " + Jumhasil);
+            HasilJK.setText("Jenis Kelamin :\n" + Jumhasil);
         }
 
 
@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
         if (hasilMod.length() == startlen) hasilMod += "Tidak ada pada Pilihan";
         HasilAM.setText(hasilMod);
 
-        HasilJP.setText("Jenjang Pendidikan : " + spJP.getSelectedItem());
+        HasilJP.setText("Jenjang Pendidikan :\n" + spJP.getSelectedItem());
     }
 
 }
