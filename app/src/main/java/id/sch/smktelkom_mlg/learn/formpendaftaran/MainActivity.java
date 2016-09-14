@@ -49,19 +49,15 @@ public class MainActivity extends AppCompatActivity {
 
         buttonOK.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View v) {
+
                 doProcess();
                 doClick();
+
             }
         });
-        {
-            @Override
-            public void onClick (View view){
-            doProcess();
-        }
-        }
-
     }
+
 
     private void doProcess() {
         if (isValid()) {
@@ -104,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-        String hasilMod = "Mode Anda:\n";
+        String hasilMod = "Aliran Musik Yang Anda Ikuti :\n";
         int startlen = hasilMod.length();
         if (cbjazz.isChecked()) hasilMod += cbjazz.getText() + "\n";
         if (cbpop.isChecked()) hasilMod += cbpop.getText() + "\n";
@@ -116,8 +112,5 @@ public class MainActivity extends AppCompatActivity {
 
         HasilJP.setText("Jenjang Pendidikan : " + spJP.getSelectedItem());
     }
-
-}
-}
 
 }
