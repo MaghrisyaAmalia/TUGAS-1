@@ -23,6 +23,15 @@
             android:text="FORM PENDAFTARAN"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
+        <TextView
+            android:id="@+id/hasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:text="KURSUS BINA VOKALIA"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
 
 
         <ImageView
@@ -31,7 +40,7 @@
             android:layout_height="140dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/hasilNL"
+            android:layout_below="@+id/hasil"
             android:src="@drawable/logo" />
 
         <TextView
@@ -145,7 +154,7 @@
             android:text="DAFTAR" />
 
         <TextView
-            android:id="@+id/hasilNL"
+            android:id="@+id/hasil"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/textView2"
