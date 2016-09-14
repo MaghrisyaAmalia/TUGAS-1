@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         etNL = (EditText) findViewById(R.id.editTextNL);
 
-        HasilNL = (TextView) findViewById(R.id.hasil);
+        HasilNL = (TextView) findViewById(R.id.hasilNL);
         HasilJK = (TextView) findViewById(R.id.hasilJK);
         HasilAM = (TextView) findViewById(R.id.hasilAM);
         HasilJP = (TextView) findViewById(R.id.hasilJP);
